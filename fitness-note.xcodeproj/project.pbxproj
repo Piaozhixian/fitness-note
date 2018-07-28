@@ -14,6 +14,7 @@
 		D983D07A210C8CF7005CD6B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D983D078210C8CF7005CD6B5 /* LaunchScreen.storyboard */; };
 		D983D085210C8CF7005CD6B5 /* fitness_noteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983D084210C8CF7005CD6B5 /* fitness_noteTests.swift */; };
 		D983D090210C8CF7005CD6B5 /* fitness_noteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983D08F210C8CF7005CD6B5 /* fitness_noteUITests.swift */; };
+		D983D09E210CB044005CD6B5 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983D09D210CB044005CD6B5 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D983D08B210C8CF7005CD6B5 /* fitness-noteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fitness-noteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D983D08F210C8CF7005CD6B5 /* fitness_noteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitness_noteUITests.swift; sourceTree = "<group>"; };
 		D983D091210C8CF7005CD6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D983D09D210CB044005CD6B5 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D983D06F210C8CF4005CD6B5 /* AppDelegate.swift */,
 				D983D071210C8CF4005CD6B5 /* ViewController.swift */,
+				D983D09D210CB044005CD6B5 /* MemoViewController.swift */,
 				D983D073210C8CF4005CD6B5 /* Main.storyboard */,
 				D983D076210C8CF7005CD6B5 /* Assets.xcassets */,
 				D983D078210C8CF7005CD6B5 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				D983D072210C8CF4005CD6B5 /* ViewController.swift in Sources */,
 				D983D070210C8CF4005CD6B5 /* AppDelegate.swift in Sources */,
+				D983D09E210CB044005CD6B5 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
