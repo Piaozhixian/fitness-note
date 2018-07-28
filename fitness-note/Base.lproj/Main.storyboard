@@ -135,6 +135,9 @@
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="提交记录"/>
+                                <connections>
+                                    <action selector="commitBtnClicked:" destination="JIR-Gh-OVh" eventType="touchUpInside" id="VrD-0I-0WN"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7jV-cs-p1V">
                                 <rect key="frame" x="140" y="145" width="86.5" height="30"/>
@@ -192,6 +195,9 @@
                         <viewLayoutGuide key="safeArea" id="f8u-jY-x7w"/>
                     </view>
                     <navigationItem key="navigationItem" id="xKx-Jh-N1c"/>
+                    <connections>
+                        <outlet property="commitBtn" destination="ZOI-83-AqH" id="zhJ-ul-3OR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X1P-8b-x9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
